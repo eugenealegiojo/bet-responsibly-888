@@ -1,0 +1,33 @@
+{
+	"name": "parlay-games-api",
+	"version": "1.2.0",
+	"description": "Parlay User Login",
+	"author": "PGI",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build --webpack-copy-php",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start --webpack-copy-php"
+	},
+	"files": [
+		"*",
+		"build/**",
+		"vendor/**",
+		"!src",
+		"!node_modules",
+		"!.gitignore",
+		"!composer.json",
+		"!composer.lock",
+		"!package.json",
+		"!*.zip",
+		"!cache/**"
+	],
+	"devDependencies": {
+		"@wordpress/scripts": "^27.7.0"
+	}
+}

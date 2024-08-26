@@ -1,0 +1,129 @@
+/* Add this CSS to style the dropdown */
+.account-menu {
+    position: relative;
+    display: inline-block;
+    padding: 1em 0 0 1em;
+}
+
+#account-menu-link {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#account-menu-link::before {
+    padding-right: 10px;
+}
+#account-menu-link::after {
+    content: '\25BC'; /* Down arrow (▼) */
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 5px;
+    transition: transform 0.3s;
+}
+.account-menu:hover #account-menu-link::after {
+    transform: rotate(180deg);
+}
+
+.account-menu:hover .account-dropdown {
+    opacity: 1;
+    max-height: 500px;
+    transform: translateY(0);
+}
+.account-dropdown {
+    opacity: 0;
+    transform: translateY(-10px);
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px;
+    z-index: 1;
+    border-radius: 4px;
+    left: auto;
+    right: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.account-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.account-dropdown li:not(.logout),
+.account-dropdown li:not(.logout) > a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    color: #0d1a2b !important;
+    font-size: 16px;
+    
+}
+
+.account-dropdown a:hover {
+    color: #0d1a2b;
+}
+
+.account-dropdown .logout-button > a {
+    margin-left: 0;
+}
+
+.account-dropdown .account-alias {
+    font-weight: bold;
+    color: #0d1a2b;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.account-dropdown span.number {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+li.logout {
+    text-align: center;
+}
+
+li.menu-link {
+    border-top: 1px solid #ccc;
+}
+
+li.account-link {
+    margin-top: 20px;
+}
+.text-right {
+    text-align: right;
+}
+.quick-link, .input-field .quick-link {
+    margin-bottom: 30px;
+}
+
+.iframe-wrapper {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+/* Ticket page */
+.add-interaction {
+    cursor: pointer;
+}
+
+.ticket-comment-field {
+    display: none;
+}
+
+.ticket-comment-field textarea {
+    width: 50%;
+}
+.ticket-comment-field .submitButton {
+    padding: 20px 0;
+
+}

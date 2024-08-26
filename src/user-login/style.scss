@@ -1,0 +1,49 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+/* Example custom login form styling */
+.parlay-login-block {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.parlay-login-block h2 {
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.parlay-login-block input {
+  box-sizing: border-box;
+}
+
+.parlay-login-block input[type="text"],
+.parlay-login-block input[type="text"].filled,
+.parlay-login-block input[type="password"],
+.parlay-login-block input[type="password"].filled,
+.parlay-login-block button {
+  color: #000;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.parlay-login-block button {
+  background-color: #0073aa;
+  color: #fff;
+  cursor: pointer;
+  text-align: center !important;
+}
+
+.parlay-login-block button:hover {
+  background-color: #005689;
+}

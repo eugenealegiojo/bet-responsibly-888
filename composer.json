@@ -1,0 +1,18 @@
+{
+	"name": "parlay/api-plugin",
+	"type": "project",
+	"require": {
+		"parlay/site-api": "dev-update-site-api-v2"
+	},
+	"repositories": {
+		"0": {
+			"type": "vcs",
+			"url": "git@gitlab.parlaygames.net:parlaygames/web/composer-packages/site-api.git"
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Parlay\\Api\\": "classes/"
+		}
+	}
+}

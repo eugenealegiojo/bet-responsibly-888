@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "parlay/user-login",
+	"version": "1.0.0",
+	"title": "Parlay Login",
+	"category": "widgets",
+	"icon": "lock",
+	"description": "",
+	"example": {},
+	"supports": {
+		"align": true,
+		"alignWide": true,
+		"html": false
+	},
+	"textdomain": "parlay-api",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

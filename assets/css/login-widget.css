@@ -1,0 +1,31 @@
+#parlay-login-form {
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease,
+  height 0.3s ease;
+  position: absolute;
+  background-color: #fff;
+  padding: 40px;
+  left: auto;
+  right: 0;
+  top: 60px;
+}
+
+
+.parlay-elementor-widget .parlay-api-login-form {
+  color: #000;
+  position: relative;
+}
+
+.parlay-elementor-widget .parlay-api-login-form.visible #parlay-login-form {
+  opacity: 1;
+  visibility: visible;
+  z-index: 20;
+}
+
+.parlay-login-button {
+  min-width: 160px;
+  text-align: center;
+  margin: 20px 0;
+  cursor: pointer;
+}

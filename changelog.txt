@@ -1,0 +1,23 @@
+<h4>1.2.0 - 07/27/2024</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added email templates builder that handles all the transactional emails.</li>
+    <li>Added game order option in the games list widget.</li>
+</ul>
+
+<h4>1.1.0 - 07/06/2024</h4>
+<p><strong>Enhancements</strong></p>
+<ul>
+	<li>Added game filters option to games list widget.</li>
+	<li>Added forgot and reset password on login widget.</li>
+	<li>Added affiliate tracking ID when exists during registration process.</li>
+	<li>Fixed missing excerpts for posts module in WP 5.0</li>
+</ul>
+
+<p><strong>Bug Fixes</strong></p>
+<ul>
+    <li>Fix PHP warning when editing widget in Elementor.</li>
+</ul>
+
+<h4>1.0.0 - 06/01/2024</h4>
+<p>Initial release.</p>

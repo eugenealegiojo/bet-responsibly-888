@@ -1,0 +1,1502 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-26 15:39-0300\n"
+"PO-Revision-Date: 2024-07-26 15:42-0300\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translated_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Loco-Version: 2.6.10; wp-6.5.4\n"
+"X-Poedit-SearchPath-0: classes\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: src\n"
+"X-Poedit-SearchPath-3: templates\n"
+
+#: classes/Account.php:153
+msgid "Dashboard"
+msgstr "Área do Jogador"
+
+#: classes/Account.php:158
+msgid "Edit Profile"
+msgstr "Editar Perfil"
+
+#: classes/Account.php:164 templates/account/dashboard-menu.php:30
+#: templates/account/dashboard.php:24
+msgid "Withdraw"
+msgstr "Saque"
+
+#: classes/Account.php:169 includes/elementor-widgets/login-register.php:389
+#: templates/account/dashboard.php:21
+msgid "Deposit"
+msgstr "Depósito"
+
+#: classes/Account.php:184
+msgid "Transactions Report"
+msgstr "Relatório de Transações"
+
+#: classes/Account.php:190
+msgid "Reconcile Report"
+msgstr "Extrato"
+
+#: classes/Account.php:196
+msgid "Activity Report"
+msgstr "Minhas Apostas"
+
+#: classes/Account.php:202 templates/account/dashboard-menu.php:26
+#: templates/account/reports/transactions.php:14
+msgid "Bonus"
+msgstr "Bônus"
+
+#: classes/Account.php:208
+msgid "Pre-Purchased Cards"
+msgstr "Relatório de Pré-compra"
+
+#: classes/Account.php:218
+msgid "Tickets"
+msgstr "Tickets"
+
+#: classes/Account.php:224
+msgid "Ticket"
+msgstr "Ticket"
+
+#: classes/Account.php:230
+msgid "Request Help"
+msgstr "Solicitar Ajuda"
+
+#: classes/Account.php:236
+msgid "Edit Ticket"
+msgstr "Editar Ticket"
+
+#: classes/Account.php:318
+msgid "Invalid reset token."
+msgstr "Chave de redefinição de senha inválida"
+
+#: classes/Account.php:335
+msgid "You are already logged in."
+msgstr "Você já está logado."
+
+#: classes/Account.php:347
+msgid "Account activated successfully. You can now log in."
+msgstr "Conta ativada com sucesso. Você pode logar agora."
+
+#: classes/Account.php:354
+msgid "Invalid activation key"
+msgstr "Chave de ativação inválida"
+
+#: classes/Account.php:388
+msgid "Please enter password and confirm password."
+msgstr "Preencha os campos senha e confirmar senha."
+
+#: classes/Account.php:393
+msgid "Passwords do not match."
+msgstr "Senhas não são iguais."
+
+#: classes/Account.php:411
+msgid "Account update failed."
+msgstr "Atualizar conta falhou."
+
+#: classes/Account.php:414
+msgid "Account updated successfully."
+msgstr "Conta atualizada com sucesso."
+
+#: classes/Account.php:429 classes/HelpDesk.php:57
+msgid "Please enter from and to date."
+msgstr "Preencher as datas de início e fim."
+
+#: classes/Account.php:539 src/user-register/edit.js:33
+#: templates/user-register.php:29
+msgid "Email"
+msgstr "E-mail"
+
+#: classes/Account.php:545 templates/account/tickets/lists.php:62
+#: templates/games-filter.php:14
+msgid "Name"
+msgstr "Nome"
+
+#: classes/Account.php:551
+msgid "Telephone"
+msgstr "Telefone"
+
+#: classes/Account.php:556
+msgid "Cellphone"
+msgstr "Celular"
+
+#: classes/Account.php:561
+msgid "Address"
+msgstr "Endereço"
+
+#: classes/Account.php:566 src/user-register/edit.js:60
+#: templates/user-register.php:47
+msgid "City"
+msgstr "Cidade"
+
+#: classes/Account.php:571
+msgid "State"
+msgstr "Estado"
+
+#: classes/Account.php:605 classes/Admin.php:183
+msgid "Postal Code"
+msgstr "CEP"
+
+#: classes/Account.php:610 classes/Admin.php:192
+msgid "Country"
+msgstr "País"
+
+#: classes/Account.php:618
+msgid "Gender"
+msgstr "Sexo"
+
+#: classes/Account.php:627
+msgid "Date Of Birth"
+msgstr "Data de Nascimento"
+
+#: classes/Account.php:633
+msgid "Do you want to receive news and promotions via email?"
+msgstr "Você quer receber notícias e promoções por e-mail?"
+
+#: classes/Account.php:641
+msgid "Player ID"
+msgstr "ID de Jogador"
+
+#: classes/Account.php:647
+msgid "Nick Name"
+msgstr "Apelido"
+
+#: classes/Account.php:653 templates/account/reports/reconcile.php:41
+msgid "Balance"
+msgstr "Saldo"
+
+#: classes/Admin.php:67 classes/Admin.php:68
+msgid "Parlay Games"
+msgstr "Jogos da Parlay"
+
+#: classes/Admin.php:145
+msgid "API Credentials"
+msgstr "Credenciais da API"
+
+#: classes/Admin.php:149
+msgid "API URL"
+msgstr "URL da API"
+
+#: classes/Admin.php:153
+msgid "Site ID"
+msgstr "ID do Site"
+
+#: classes/Admin.php:157
+msgid "API Key"
+msgstr "Chave da API"
+
+#: classes/Admin.php:161
+msgid "API Token"
+msgstr "Token da API"
+
+#: classes/Admin.php:165
+msgid "API Token (Public)"
+msgstr "Token da API (Público)"
+
+#: classes/Admin.php:169
+msgid "Ecommerce URL"
+msgstr "URL do Ecommerce"
+
+#: classes/Admin.php:175
+msgid "Defaults For Short Registration"
+msgstr "Padrões para o Cadastro Rápido"
+
+#: classes/Admin.php:179
+msgid "Address 1"
+msgstr "Endereço"
+
+#: classes/Admin.php:187
+msgid "Province"
+msgstr "Estado"
+
+#: classes/Admin.php:197 templates/account/reports/activity.php:81
+#: templates/account/reports/transactions.php:94
+msgid "Currency"
+msgstr "Moeda"
+
+#: classes/Admin.php:201
+msgid "Language"
+msgstr "Idioma"
+
+#: classes/Admin.php:227 classes/DataManager.php:662
+msgid "Welcome"
+msgstr "Bem Vindo(a)"
+
+#: classes/Admin.php:231
+msgid "API Settings"
+msgstr "Configurações da API"
+
+#: classes/Admin.php:235 includes/admin/admin-email-templates-builder.php:9
+msgid "Email Templates"
+msgstr "Modelos de E-mail"
+
+#: classes/Admin.php:239 includes/admin/admin-content-restrictions.php:13
+msgid "Content Restrictions"
+msgstr "Restriçoes de Conteúdo"
+
+#: classes/Admin.php:243 includes/admin/admin-tools.php:10
+msgid "Tools"
+msgstr "Ferramentas"
+
+#: classes/Admin.php:266
+#, php-format
+msgid "%s Settings"
+msgstr "Configurações de %s"
+
+#: classes/Admin.php:281
+msgid "Settings updated!"
+msgstr "Configurações atualizadas!"
+
+#: classes/Admin.php:318
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Você nao tem permissão para acessar esta página."
+
+#: classes/Admin.php:329
+#, php-format
+msgid "Empty field: %s"
+msgstr "Campo não preenchido: %s"
+
+#: classes/Admin.php:333
+msgid "You submitted an invalid API Key (alphanumeric characters only)."
+msgstr ""
+"Você enviou uma Chave de API inválida (somente caracteres alfanuméricos)."
+
+#: classes/Admin.php:337
+msgid "You submitted an invalid API Token (alphanumeric characters only)."
+msgstr "Você envou um Token de API inválid (somente caracteres alfanuméricos)."
+
+#: classes/DataManager.php:667 classes/HelpDesk.php:159
+msgid "Forgot Password"
+msgstr "Esqueceu a Senha"
+
+#: classes/DataManager.php:674
+msgid "Account Activation"
+msgstr "Ativação da Conta"
+
+#: classes/HelpDesk.php:30
+msgid "Unable to open new ticket."
+msgstr "Não foi possível abrir um novo ticket."
+
+#: classes/HelpDesk.php:39
+msgid "Ticket submitted successfully."
+msgstr "Ticket criado com sucesso."
+
+#: classes/HelpDesk.php:76
+msgid "Unable to process tickets list."
+msgstr "Não foi possível processar a lista de tickets."
+
+#: classes/HelpDesk.php:105
+msgid "Unable to retrieve ticket details."
+msgstr "Não foi possível obter os detalhes do ticket."
+
+#: classes/HelpDesk.php:134
+msgid "Unable to add a comment."
+msgstr "Não foi possível adicionar comentário."
+
+#: classes/HelpDesk.php:143
+msgid "Comment successfully added."
+msgstr "Comentário adicionado com sucesso."
+
+#: classes/HelpDesk.php:154
+msgid "Billing"
+msgstr "Faturamento"
+
+#: classes/HelpDesk.php:155
+msgid "Lost Credit"
+msgstr "Créditos Perdidos"
+
+#: classes/HelpDesk.php:156
+msgid "Lost Connection"
+msgstr "Perda de Conexão"
+
+#: classes/HelpDesk.php:157
+msgid "Locked Up"
+msgstr "Travou"
+
+#: classes/HelpDesk.php:158
+msgid "Other"
+msgstr "Outro"
+
+#: classes/HelpDesk.php:160 templates/account/tickets/create.php:20
+msgid "Comment"
+msgstr "Comentário"
+
+#: classes/HelpDesk.php:161
+msgid "Win Not Credited"
+msgstr "Ganho Não Creditado"
+
+#: classes/HelpDesk.php:162
+msgid "Credit Card"
+msgstr "Cartão de Crédito"
+
+#: classes/HelpDesk.php:170 templates/account/reports/activity.php:44
+#: templates/games-filter.php:19 templates/games-filter.php:30
+#: templates/games-filter.php:41
+msgid "All"
+msgstr "Todos"
+
+#: classes/HelpDesk.php:171 includes/elementor-widgets/games-list.php:85
+msgid "New"
+msgstr "Novo"
+
+#: classes/HelpDesk.php:172
+msgid "Pending"
+msgstr "Pendente"
+
+#: classes/HelpDesk.php:173
+msgid "Closed"
+msgstr "Fechado"
+
+#: classes/Plugin.php:236
+msgid "Required field."
+msgstr "Campo obrigatório."
+
+#: classes/Plugin.php:237
+msgid "Password must be at least 5 characters"
+msgstr "Senha deve conter pelo menos 5 caracteres"
+
+#: classes/Plugin.php:238
+msgid "Passwords do not match"
+msgstr "Senhas não são iguais"
+
+#: classes/Plugin.php:239
+msgid "Invalid email"
+msgstr "E-mail inválido"
+
+#: classes/Plugin.php:240
+msgid "Something is wrong"
+msgstr "Algo deu errado"
+
+#: classes/Plugin.php:297
+msgid "Your session has expired. Please log in again."
+msgstr "Sua sessão expirou. Faça o login novamente."
+
+#: classes/Plugin.php:305 classes/UserAuth.php:431
+msgid ""
+"Thank you for registering! Please check your email to activate your account."
+msgstr ""
+"Obrigado pelo cadastro! Por favor cheque seu e-mail para ativar a conta."
+
+#: classes/Reports.php:24 classes/Reports.php:387
+msgid "Date from and date to are required."
+msgstr "Data de início e fim são obrigatórias."
+
+#: classes/Reports.php:40
+msgid "Unable to process reconcile reports."
+msgstr "Não foi possível processar o extrato."
+
+#: classes/Reports.php:75
+msgid "Unable to process activity reports."
+msgstr "Não foi possível processar o relatório de aposta."
+
+#: classes/Reports.php:89
+msgid "Missing activity id."
+msgstr "ID da atividade ausente."
+
+#: classes/Reports.php:107
+msgid "Unable to process activity details."
+msgstr "Não foi possível processar os detalhes da aposta."
+
+#: classes/Reports.php:241
+msgid "Unable to process bonus reports."
+msgstr "Não foi possível processar o relatório de bônus."
+
+#: classes/Reports.php:408
+msgid "Unable to process pre-purchased reports."
+msgstr "Não foi possível processar o relatório de pré-compras."
+
+#: classes/Reports.php:448
+msgid "Unable to process transaction reports."
+msgstr "Não foi possível processar o relatório de transações."
+
+#: classes/UserAuth.php:216
+msgid "Username and password are required."
+msgstr "Usuário e senha são obrigatórios."
+
+#: classes/UserAuth.php:231
+msgid "No API settings found."
+msgstr "Configurações da API ausentes."
+
+#: classes/UserAuth.php:288
+msgid "Unable to generate token"
+msgstr "Não foi possível gerar token"
+
+#: classes/UserAuth.php:295
+msgid "Account is not active"
+msgstr "Conta não está ativada"
+
+#: classes/UserAuth.php:438
+msgid "Failed to send activation email to %$s. Activation link: {link}"
+msgstr "Falha ao enviar e-mail de ativação para %$s. Link de ativação: {link}"
+
+#: classes/UserAuth.php:477
+msgid "Your account was successfully created."
+msgstr "Sua conta foi criada com sucesso."
+
+#: classes/UserAuth.php:482
+msgid "Failed to login your account."
+msgstr "Falha ao logar em sua conta."
+
+#: classes/UserAuth.php:523
+msgid "User is not authenticated"
+msgstr "Usuário não autenticado"
+
+#: classes/UserAuth.php:530
+msgid "Password does not match"
+msgstr "Senha não confere"
+
+#: classes/UserAuth.php:653
+msgid "Account not found."
+msgstr "Conta não encontrada"
+
+#: classes/UserAuth.php:672
+msgid ""
+"Your account has been found, and you have been e-mailed instructions on how "
+"to complete the password reset process."
+msgstr ""
+"Sua conta foi encontrada e você receberá um e-mail com instruções para "
+"completar a redefinição da sua senha."
+
+#: classes/UserAuth.php:677
+msgid "Failed to send reset email."
+msgstr "Falhou ao enviar o e-mail de redefinição."
+
+#: classes/UserAuth.php:722
+msgid "Your password has successfully been reset. Redirecting to login page..."
+msgstr ""
+"Sua senha foi redefinida com sucesso. Redirecionando para a página de "
+"login..."
+
+#: classes/UserAuth.php:727
+msgid "Unable to reset password."
+msgstr "Não foi possível redefinir a senha."
+
+#: includes/admin/admin-content-restrictions.php:15
+msgid "Select the post types you want to restrict from public access."
+msgstr "Selecione os tipos de post que vc quer restringir de acesso público."
+
+#: includes/admin/admin-content-restrictions.php:41
+#: includes/admin/admin-form.php:36
+msgid "Save Settings"
+msgstr "Salvar Configurações"
+
+#: includes/admin/admin-email-templates-builder.php:12
+msgid "Transactional Email"
+msgstr "E-mail Transacional"
+
+#: includes/admin/admin-email-templates-builder.php:14
+msgid "Select Template"
+msgstr "Selecione o Modelo"
+
+#: includes/admin/admin-email-templates-builder.php:24
+msgid "Email Settings"
+msgstr "Configurações de E-mail"
+
+#: includes/admin/admin-email-templates-builder.php:27
+#: templates/account/reports/activity.php:77
+#: templates/account/reports/date-filter.php:3
+msgid "From"
+msgstr "De"
+
+#: includes/admin/admin-email-templates-builder.php:31
+#: templates/account/tickets/create.php:12
+msgid "Subject"
+msgstr "Assunto"
+
+#: includes/admin/admin-email-templates-builder.php:37
+msgid "Email Template Builder"
+msgstr "Construtor de Modelo de E-mail"
+
+#: includes/admin/admin-email-templates-builder.php:43
+msgid "Template tags (click to copy)"
+msgstr "Etiquetas de Modelo (clique para copiar)"
+
+#: includes/admin/admin-email-templates-builder.php:56
+msgid "Save Template"
+msgstr "Salvar Modelo"
+
+#: includes/admin/admin-email-templates-builder.php:59
+msgid "Send Test"
+msgstr "Enviar teste"
+
+#: includes/admin/admin-email-templates-builder.php:66
+#: templates/account/reports/activity.php:52
+#: templates/account/reports/bonus.php:12
+#: templates/account/reports/pre-purchased.php:24
+#: templates/account/reports/reconcile.php:12
+#: templates/account/reports/transactions.php:64
+msgid "Send"
+msgstr "Enviar"
+
+#: includes/admin/admin-email-templates-builder.php:69
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/admin/admin-tools.php:20
+msgid "Reset Game Cache"
+msgstr "Limpar o Cache de Jogos"
+
+#: includes/admin/admin-tools.php:25
+msgid "Reset Game Tags Cache"
+msgstr "Limpar o Cache de Tags de Jogos"
+
+#: includes/admin/admin-welcome.php:11
+msgid "Welcome to Parlay Games!"
+msgstr "Bem-vindo(a) à Parlay Games!"
+
+#: includes/admin/admin-welcome.php:17
+msgid ""
+"Thank you for choosing Parlay Games. To the left are the settings options to "
+"activate the plugin."
+msgstr ""
+"Obrigado por escolher Parlay Games. À esquerda você tem as configurações e "
+"opções para ativar este plugin."
+
+#: includes/admin/class-parlay-media-edit.php:42
+msgid "Parlay IDs"
+msgstr "IDs Parlay"
+
+#: includes/admin/class-parlay-media-edit.php:45
+msgid "Type or paste Parlay IDs"
+msgstr "Digite ou cole os IDs da Parlay"
+
+#: includes/admin/class-parlay-media-edit.php:46
+msgid ""
+"Specify the Parlay Game/Room you want this image to appear in the games "
+"list. Separate each with a comma."
+msgstr ""
+"Especifique o Jogo/Sala da Parlay que você quere que esta imagem apareça na "
+"lista de jogos. Separe-as com uma vírgula."
+
+#: includes/admin/class-parlay-media-edit.php:52
+msgid "Select Game Style"
+msgstr "Selecione o Estilo do Jogo"
+
+#: includes/admin/class-parlay-media-edit.php:53
+msgid "STANDARD"
+msgstr "STANDARD"
+
+#: includes/admin/class-parlay-media-edit.php:54
+msgid "BLAZ"
+msgstr "BLAZ"
+
+#: includes/admin/class-parlay-media-edit.php:55
+msgid "BHTB"
+msgstr "BHTB"
+
+#: includes/admin/class-parlay-media-edit.php:56
+msgid "XCASH_DETECTIVE_M"
+msgstr "XCASH_DETECTIVE_M"
+
+#: includes/admin/class-parlay-media-edit.php:60
+msgid "Parlay Game Style"
+msgstr "Estilo do Jogo da Parlay"
+
+#: includes/admin/class-parlay-media-edit.php:72
+msgid "Select the game style for this image."
+msgstr "Selecione o estilo do jogo para esta imagem."
+
+#: includes/class-parlay-api-loader.php:152
+msgid "This plugin is not fully active."
+msgstr "Este plugin não está totalmente ativado."
+
+#: includes/class-parlay-api-loader.php:162
+#, php-format
+msgid "Requires %1$s (%2$s), but (%3$s) is installed."
+msgstr "Requer %1$s (%2$s), mas (%3$s) está instalado."
+
+#: includes/class-parlay-api-loader.php:172
+#, php-format
+msgid "Requires %1$s (%2$s), but it appears to be missing."
+msgstr "Requer %1$s (%2$s), mas parece estar ausente."
+
+#: includes/class-parlay-api-loader.php:182
+msgid "Requirements"
+msgstr "Requerimentos"
+
+#: includes/class-parlay-api-loader.php:192 includes/elementor-widget.php:71
+msgid "Parlay Games API"
+msgstr "API de Jogos da Parlay"
+
+#: includes/elementor-widgets/forgot-password.php:43
+msgid "Parlay Forgot Password Form"
+msgstr "Formulário de Esqueceu a Senha da Parlay"
+
+#: includes/elementor-widgets/forgot-password.php:95
+#: includes/elementor-widgets/login-form.php:95
+#: includes/elementor-widgets/my-account.php:96
+msgid "Content"
+msgstr "Conteúdo"
+
+#: includes/elementor-widgets/forgot-password.php:103
+#: includes/elementor-widgets/login-form.php:103
+#: includes/elementor-widgets/my-account.php:104
+msgid "Title"
+msgstr "Título"
+
+#: includes/elementor-widgets/forgot-password.php:105
+#: includes/elementor-widgets/login-form.php:114
+#: includes/elementor-widgets/login-register.php:153
+msgid "Forgot Password?"
+msgstr "Esqueceu a Senha?"
+
+#: includes/elementor-widgets/forgot-password.php:112
+msgid "Heading Text"
+msgstr "Texto do Cabeçalho"
+
+#: includes/elementor-widgets/forgot-password.php:114
+msgid ""
+"Please enter your email address. You will receive an email message with "
+"information on how to reset your password."
+msgstr ""
+"Preencha o seu endereço de e-mail. Você receberá um e-mail com informações "
+"de como redefinir sua senha."
+
+#: includes/elementor-widgets/forgot-password.php:121
+#: includes/elementor-widgets/login-register.php:110
+#: includes/elementor-widgets/login-register.php:187
+msgid "Button Text"
+msgstr "Texto do Botão"
+
+#: includes/elementor-widgets/forgot-password.php:123
+#: templates/account/forgot-password.php:12
+#: templates/account/reset-password.php:10
+msgid "Reset Password"
+msgstr "Redefinir Senha"
+
+#: includes/elementor-widgets/games-list.php:44
+msgid "Parlay Games List"
+msgstr "Lista de Jogos da Parlay"
+
+#: includes/elementor-widgets/games-list.php:84
+msgid "Featured"
+msgstr "Destaque"
+
+#: includes/elementor-widgets/games-list.php:86
+msgid "Holiday"
+msgstr "Feriado"
+
+#: includes/elementor-widgets/games-list.php:87
+msgid "Featured VIP"
+msgstr "Destaque VIP"
+
+#: includes/elementor-widgets/games-list.php:88
+msgid "Rey"
+msgstr "Rey"
+
+#: includes/elementor-widgets/games-list.php:114
+msgid "Game Options"
+msgstr "Opções de Jogo"
+
+#: includes/elementor-widgets/games-list.php:122
+msgid "Game Category"
+msgstr "Categoria de Jogo"
+
+#: includes/elementor-widgets/games-list.php:124
+#: includes/elementor-widgets/games-list.php:140
+#: templates/account/reports/activity.php:11
+msgid "Bingo"
+msgstr "Bingo"
+
+#: includes/elementor-widgets/games-list.php:125
+msgid "Casino"
+msgstr "Cassino"
+
+#: includes/elementor-widgets/games-list.php:133
+msgid "Select Game Type"
+msgstr "Selecione o Tipo de Jogo"
+
+#: includes/elementor-widgets/games-list.php:138
+#: templates/account/reports/activity.php:9
+msgid "Baccarat"
+msgstr "Baccarat"
+
+#: includes/elementor-widgets/games-list.php:139
+#: templates/account/reports/activity.php:10
+msgid "Bejeweled"
+msgstr "Bejeweled"
+
+#: includes/elementor-widgets/games-list.php:141
+#: templates/account/reports/activity.php:12
+msgid "Bingo Bets"
+msgstr "Bingo Bets"
+
+#: includes/elementor-widgets/games-list.php:142
+#: templates/account/reports/activity.php:13
+msgid "Bingo Social"
+msgstr "Bingo Social"
+
+#: includes/elementor-widgets/games-list.php:143
+#: templates/account/reports/activity.php:14
+msgid "Blackjack"
+msgstr "Blackjack (21)"
+
+#: includes/elementor-widgets/games-list.php:144
+#: templates/account/reports/activity.php:15
+msgid "Caribbean Poker"
+msgstr "Poker Caribenho"
+
+#: includes/elementor-widgets/games-list.php:145
+#: templates/account/reports/activity.php:16
+msgid "Community Games"
+msgstr "Jogos Comunitários"
+
+#: includes/elementor-widgets/games-list.php:146
+#: templates/account/reports/activity.php:17
+msgid "Craps"
+msgstr "Dados"
+
+#: includes/elementor-widgets/games-list.php:147
+#: templates/account/reports/activity.php:18
+msgid "Hi-Lo"
+msgstr "Hi-Lo"
+
+#: includes/elementor-widgets/games-list.php:148
+#: templates/account/reports/activity.php:19
+msgid "Keno"
+msgstr "Loteria"
+
+#: includes/elementor-widgets/games-list.php:149
+#: templates/account/reports/activity.php:20
+msgid "Live Bingo"
+msgstr "Bingo Ao Vivo"
+
+#: includes/elementor-widgets/games-list.php:150
+#: templates/account/reports/activity.php:21
+msgid "Lobby"
+msgstr "Bingo Lobby"
+
+#: includes/elementor-widgets/games-list.php:151
+#: templates/account/reports/activity.php:22
+msgid "Lotto"
+msgstr "Loteria"
+
+#: includes/elementor-widgets/games-list.php:152
+#: templates/account/reports/activity.php:23
+msgid "Match"
+msgstr "Match"
+
+#: includes/elementor-widgets/games-list.php:153
+#: templates/account/reports/activity.php:24
+msgid "Multiplayer Slots"
+msgstr "Slots Multijogador"
+
+#: includes/elementor-widgets/games-list.php:154
+#: templates/account/reports/activity.php:25
+msgid "Pull Tabs"
+msgstr "Puxadinha"
+
+#: includes/elementor-widgets/games-list.php:155
+#: templates/account/reports/activity.php:26
+msgid "Quiz"
+msgstr "Trívia"
+
+#: includes/elementor-widgets/games-list.php:156
+#: templates/account/reports/activity.php:27
+msgid "Roulette"
+msgstr "Roleta"
+
+#: includes/elementor-widgets/games-list.php:157
+#: templates/account/reports/activity.php:28
+msgid "Scratch Card"
+msgstr "Raspadinha"
+
+#: includes/elementor-widgets/games-list.php:158
+#: templates/account/reports/activity.php:29
+msgid "Sit N' Go"
+msgstr "Sit N' Go"
+
+#: includes/elementor-widgets/games-list.php:159
+#: templates/account/reports/activity.php:30
+msgid "Skill Bingo"
+msgstr "Skill Bingo"
+
+#: includes/elementor-widgets/games-list.php:160
+#: templates/account/reports/activity.php:31
+msgid "Slots"
+msgstr "Slots"
+
+#: includes/elementor-widgets/games-list.php:161
+#: templates/account/reports/activity.php:32
+msgid "Social"
+msgstr "Social"
+
+#: includes/elementor-widgets/games-list.php:162
+#: templates/account/reports/activity.php:33
+msgid "Video/Table Poker"
+msgstr "Vídeo Poker/Poker de Mesa"
+
+#: includes/elementor-widgets/games-list.php:163
+#: templates/account/reports/activity.php:34
+msgid "Video Bingo"
+msgstr "Vídeo bingo"
+
+#: includes/elementor-widgets/games-list.php:174
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: includes/elementor-widgets/games-list.php:188
+msgid "Includes free games"
+msgstr "Incluir jogos grátis"
+
+#: includes/elementor-widgets/games-list.php:190
+#: templates/account/dashboard.php:43 templates/account/edit-profile.php:63
+msgid "Yes"
+msgstr "Sim"
+
+#: includes/elementor-widgets/games-list.php:191
+#: templates/account/dashboard.php:43
+msgid "No"
+msgstr "Não"
+
+#: includes/elementor-widgets/games-list.php:202
+msgid "Fallback Thumbnail"
+msgstr "Imagem padrão"
+
+#: includes/elementor-widgets/games-list.php:210
+msgid "Limit"
+msgstr "Limite"
+
+#: includes/elementor-widgets/games-list.php:212
+#: includes/elementor-widgets/games-list.php:297
+msgid "On"
+msgstr "Lig."
+
+#: includes/elementor-widgets/games-list.php:213
+#: includes/elementor-widgets/games-list.php:298
+msgid "Off"
+msgstr "Desl."
+
+#: includes/elementor-widgets/games-list.php:223
+msgid "Count"
+msgstr "Contagem"
+
+#: includes/elementor-widgets/games-list.php:237
+msgid "Game Order"
+msgstr "Ordem do Jogo"
+
+#: includes/elementor-widgets/games-list.php:240
+msgid "By Name"
+msgstr "Por Nome"
+
+#: includes/elementor-widgets/games-list.php:241
+msgid "By ID"
+msgstr "Por ID"
+
+#: includes/elementor-widgets/games-list.php:242
+msgid "Custom Order"
+msgstr "Customizada"
+
+#: includes/elementor-widgets/games-list.php:253
+msgid "Sort Order"
+msgstr "Ordenar"
+
+#: includes/elementor-widgets/games-list.php:256
+msgid "Ascending"
+msgstr "Menor para o maior"
+
+#: includes/elementor-widgets/games-list.php:257
+msgid "Descending"
+msgstr "Maior para o menor"
+
+#: includes/elementor-widgets/games-list.php:268
+msgid "Order Games"
+msgstr "Ordenar Jogos"
+
+#: includes/elementor-widgets/games-list.php:283
+msgid "Columns"
+msgstr "Colunas"
+
+#: includes/elementor-widgets/games-list.php:295
+msgid "Games Filter"
+msgstr "Filtro de Jogos"
+
+#: includes/elementor-widgets/login-form.php:43
+msgid "Parlay Login Form"
+msgstr "Formulário de Login da Parlay"
+
+#: includes/elementor-widgets/login-form.php:105
+#: includes/elementor-widgets/login-register.php:102
+#: includes/elementor-widgets/login-register.php:112
+#: includes/elementor-widgets/login-register.php:364
+#: includes/elementor-widgets/login-register.php:378 src/user-login/edit.js:11
+#: src/user-login/edit.js:22 templates/user-login.php:10
+#: templates/user-login.php:31
+msgid "Login"
+msgstr "Login"
+
+#: includes/elementor-widgets/login-form.php:112
+#: includes/elementor-widgets/login-register.php:151
+msgid "Forgot Password Text"
+msgstr "Texto Esqueceu a Senha"
+
+#: includes/elementor-widgets/login-form.php:122
+#: includes/elementor-widgets/login-register.php:161
+msgid "Forgot Password Link"
+msgstr "Link Esqueceu a Senha"
+
+#: includes/elementor-widgets/login-register.php:43
+msgid "Parlay Popup Login/Register"
+msgstr "Popup de Login/Cadastro da Parlay"
+
+#: includes/elementor-widgets/login-register.php:120
+msgid "Select Action"
+msgstr "Selecionar Ação"
+
+#: includes/elementor-widgets/login-register.php:122
+msgid "Default"
+msgstr "Padrão"
+
+#: includes/elementor-widgets/login-register.php:123
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: includes/elementor-widgets/login-register.php:124
+msgid "Link"
+msgstr "Link"
+
+#: includes/elementor-widgets/login-register.php:133
+msgid "Login Link"
+msgstr "Link de Login"
+
+#: includes/elementor-widgets/login-register.php:179
+#: includes/elementor-widgets/login-register.php:189
+msgid "Register"
+msgstr "Cadastrar"
+
+#: includes/elementor-widgets/login-register.php:196
+msgid "Registration Link"
+msgstr "Link de Cadastro"
+
+#: includes/elementor-widgets/login-register.php:213
+msgid "Login Button"
+msgstr "Botão de Login"
+
+#: includes/elementor-widgets/login-register.php:221
+msgid "Background Color"
+msgstr "Cor de Fundo"
+
+#: includes/elementor-widgets/login-register.php:232
+msgid "Hover Background Color"
+msgstr "Cor de Fundo de Hover"
+
+#: includes/elementor-widgets/login-register.php:244
+msgid "Text Color"
+msgstr "Cor de Texto"
+
+#: includes/elementor-widgets/login-register.php:256
+msgid "Font Family"
+msgstr "Família da Fonte"
+
+#: includes/elementor-widgets/login-register.php:268
+msgid "Padding"
+msgstr "Espaçamento"
+
+#: includes/elementor-widgets/login-register.php:295
+msgid "Border Radius"
+msgstr "Canto Arredondado"
+
+#: includes/elementor-widgets/login-register.php:367 src/user-login/edit.js:15
+#: templates/user-login.php:20
+msgid "Username"
+msgstr "Usuário"
+
+#: includes/elementor-widgets/login-register.php:368 src/user-login/edit.js:19
+#: src/user-register/edit.js:42 templates/account/edit-profile.php:89
+#: templates/user-login.php:21 templates/user-register.php:35
+msgid "Password"
+msgstr "Senha"
+
+#: includes/elementor-widgets/my-account.php:43
+msgid "Parlay My Account"
+msgstr "Minha Conta da Parlay"
+
+#: includes/elementor-widgets/my-account.php:106
+#: templates/account/my-account.php:11
+msgid "My Profile"
+msgstr "Meu Perfil"
+
+#: includes/elementor-widgets/register-form.php:43
+msgid "Parlay Register Form"
+msgstr "Formulário de Cadastro da Parlay"
+
+#: src/user-register/edit.js:15 templates/user-register.php:17
+msgid "Full name"
+msgstr "Nome Completo"
+
+#: src/user-register/edit.js:24 templates/user-register.php:23
+msgid "Nickname"
+msgstr "Apelido"
+
+#: src/user-register/edit.js:51 templates/user-register.php:41
+msgid "Date of Birth"
+msgstr "Data de Nascimento"
+
+#: src/user-register/edit.js:68 templates/user-register.php:54
+msgid "Sex"
+msgstr "Sexo"
+
+#: src/user-register/edit.js:70 templates/user-register.php:56
+msgid "Male"
+msgstr "Masculino"
+
+#: src/user-register/edit.js:74 templates/user-register.php:60
+msgid "Female"
+msgstr "Feminino"
+
+#: src/user-register/edit.js:84 templates/user-register.php:67
+msgid "Cellphone number"
+msgstr "Celular"
+
+#: src/user-register/edit.js:95 templates/user-register.php:73
+msgid "Phone 2"
+msgstr "Telefone 2"
+
+#: src/user-register/edit.js:107 templates/user-register.php:83
+msgid ""
+"I wish to receive promotional newsletters, news, and offers via email, SMS, "
+"and phone."
+msgstr ""
+"Desejo receber boletim promocional, notícias e ofertas via email, SMS, e "
+"telefone."
+
+#: src/user-register/edit.js:118 templates/user-register.php:89
+msgid "Open My Account"
+msgstr "Abrir Minha Conta"
+
+#: src/user-register/edit.js:125
+msgid ""
+"At the end of my registration, I certify that I am over 18 years of age and "
+"accept the <a href=\"#\">Terms and Conditions</a> and <a href=\"#\">Privacy "
+"Policy</a>."
+msgstr ""
+"Ao finalizar meu cadastro certifico que tenho mais de 18 anos de idade e "
+"aceito os <a href=\"#\">Termos e Condições</a> e a <a href=\"#\">Política de "
+"Privacidade</a>."
+
+#: templates/account/dashboard-menu.php:20
+msgid "My Account"
+msgstr "Minha Conta"
+
+#: templates/account/dashboard-menu.php:25
+msgid "Cash"
+msgstr "Dinheiro"
+
+#: templates/account/dashboard-menu.php:27
+msgid "Total"
+msgstr "Total"
+
+#: templates/account/dashboard-menu.php:33
+msgid "Help Desk"
+msgstr "Central de Ajuda"
+
+#: templates/account/dashboard-menu.php:37 templates/user-login.php:40
+msgid "Logout"
+msgstr "Sair"
+
+#: templates/account/dashboard.php:18
+msgid "Update Profile"
+msgstr "Editar Perfil"
+
+#: templates/account/dashboard.php:29 templates/account/edit-profile.php:19
+msgid "Personal Information"
+msgstr "Informações Pessoais"
+
+#: templates/account/dashboard.php:55 templates/account/edit-profile.php:73
+msgid "Account Information"
+msgstr "Informações da Conta"
+
+#: templates/account/deposit.php:36 templates/account/withdraw.php:42
+#: templates/redirect/popgame.php:18
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: templates/account/deposit.php:38 templates/account/withdraw.php:44
+msgid "Sorry your browser doesn't support frames."
+msgstr "Desculpe, seu navegador não suporta frames."
+
+#: templates/account/edit-profile.php:96
+msgid "Confirm Password"
+msgstr "Confirme a Senha"
+
+#: templates/account/edit-profile.php:103
+msgid "Update"
+msgstr "Atualizar"
+
+#: templates/account/forgot-password.php:26
+msgid "Enter your email"
+msgstr "Preencha seu e-mail"
+
+#: templates/account/reports/activity-details.php:16
+msgid "Game Session Details"
+msgstr "Detalhes da Sessão de Jogo"
+
+#: templates/account/reports/activity-details.php:18
+msgid "Game Session ID :"
+msgstr "ID da Sessão de Jogo :"
+
+#: templates/account/reports/activity-details.php:22
+msgid "Game Type :"
+msgstr "Tipo de Jogo :"
+
+#: templates/account/reports/activity-details.php:26
+msgid "Config ID :"
+msgstr "ID do Jogo :"
+
+#: templates/account/reports/activity-details.php:30
+msgid "Wagered :"
+msgstr "Apostado :"
+
+#: templates/account/reports/activity-details.php:34
+msgid "Won :"
+msgstr "Ganho :"
+
+#: templates/account/reports/activity-details.php:38
+msgid "Pushed :"
+msgstr "Devolvido :"
+
+#: templates/account/reports/activity-details.php:49
+msgid "Date & Time"
+msgstr "Data/Hora"
+
+#: templates/account/reports/activity-details.php:50
+msgid "Round"
+msgstr "Rodada"
+
+#: templates/account/reports/activity-details.php:51
+#: templates/account/reports/bonus.php:37
+#: templates/account/reports/reconcile.php:40
+#: templates/account/reports/transactions.php:91
+msgid "Amount"
+msgstr "Valor"
+
+#: templates/account/reports/activity-details.php:52
+msgid "Event"
+msgstr "Evento"
+
+#: templates/account/reports/activity-details.php:53
+msgid "Detail"
+msgstr "Detalhe"
+
+#: templates/account/reports/activity.php:41
+#: templates/account/reports/pre-purchased.php:53
+msgid "Game Type"
+msgstr "Tipo de Jogo"
+
+#: templates/account/reports/activity.php:62
+#: templates/account/reports/bonus.php:22
+#: templates/account/reports/pre-purchased.php:34
+#: templates/account/reports/reconcile.php:22
+#: templates/account/reports/transactions.php:75
+#, php-format
+msgid "Displaying reports from %1$s to %2$s"
+msgstr "Mostrando relatórios de %1$s a %2$s"
+
+#: templates/account/reports/activity.php:76
+#: templates/account/reports/transactions.php:89
+msgid "ID"
+msgstr "ID"
+
+#: templates/account/reports/activity.php:78
+#: templates/account/reports/date-filter.php:10
+msgid "To"
+msgstr "Até"
+
+#: templates/account/reports/activity.php:79
+#: templates/account/reports/reconcile.php:38
+msgid "Game type"
+msgstr "Tipo de jogo"
+
+#: templates/account/reports/activity.php:80
+msgid "Won"
+msgstr "Ganho"
+
+#: templates/account/reports/activity.php:82
+#: templates/account/tickets/lists.php:25
+#: templates/account/tickets/lists.php:63
+msgid "Status"
+msgstr "Status"
+
+#: templates/account/reports/activity.php:102
+#: templates/account/reports/bonus.php:66
+#: templates/account/reports/pre-purchased.php:78
+#: templates/account/reports/reconcile.php:58
+#: templates/account/reports/transactions.php:111
+msgid "No reports found."
+msgstr "Nenhum relatório encontrado."
+
+#: templates/account/reports/bonus.php:36
+msgid "Bonus Date"
+msgstr "Data do Bônus"
+
+#: templates/account/reports/bonus.php:38
+#: templates/account/reports/reconcile.php:39
+#: templates/account/reports/transactions.php:92
+msgid "Account Type"
+msgstr "Tipo de Conta"
+
+#: templates/account/reports/bonus.php:39
+msgid "Deposit Amount"
+msgstr "Valor do Depósito"
+
+#: templates/account/reports/bonus.php:40
+msgid "Win Cap Amount"
+msgstr "Valor do Limite de Ganho"
+
+#: templates/account/reports/bonus.php:41
+msgid "Win Amount"
+msgstr "Valor Ganho"
+
+#: templates/account/reports/bonus.php:42
+msgid "VIP Level"
+msgstr "Nível VIP"
+
+#: templates/account/reports/bonus.php:43
+msgid "Bonus Status"
+msgstr "Status do Bônus"
+
+#: templates/account/reports/bonus.php:44
+msgid "Wager Required"
+msgstr "Aposta Obrigatória"
+
+#: templates/account/reports/bonus.php:45
+msgid "Wager Amount"
+msgstr "Valor da Aposta"
+
+#: templates/account/reports/pre-purchased.php:15
+msgid "Select Order"
+msgstr "Selecionar o Pedido"
+
+#: templates/account/reports/pre-purchased.php:18
+#: templates/account/reports/pre-purchased.php:49
+msgid "Order Date"
+msgstr "Data do Pedido"
+
+#: templates/account/reports/pre-purchased.php:19
+#: templates/account/reports/pre-purchased.php:50
+msgid "Game Date"
+msgstr "Data do Jogo"
+
+#: templates/account/reports/pre-purchased.php:48
+msgid "Order ID"
+msgstr "ID do Pedido"
+
+#: templates/account/reports/pre-purchased.php:51
+msgid "Game Number"
+msgstr "Número da Rodada"
+
+#: templates/account/reports/pre-purchased.php:52
+msgid "Game Name"
+msgstr "Nome da Rodada"
+
+#: templates/account/reports/pre-purchased.php:54
+msgid "Your Tickets"
+msgstr "Seus Tickets"
+
+#: templates/account/reports/pre-purchased.php:55
+msgid "Game Cost"
+msgstr "Custo da Rodada"
+
+#: templates/account/reports/pre-purchased.php:56
+msgid "Room"
+msgstr "Sala"
+
+#: templates/account/reports/reconcile.php:36
+msgid "Transaction ID"
+msgstr "ID da Transação"
+
+#: templates/account/reports/reconcile.php:37
+#: templates/account/reports/transactions.php:90
+#: templates/account/tickets/lists.php:64 templates/account/tickets/view.php:42
+msgid "Date"
+msgstr "Data"
+
+#: templates/account/reports/transactions.php:9
+msgid "Manual Debits"
+msgstr "Débitos Manuais"
+
+#: templates/account/reports/transactions.php:10
+msgid "Manual Credits"
+msgstr "Créditos Manuais"
+
+#: templates/account/reports/transactions.php:11
+msgid "E-commerce Deposits"
+msgstr "Depósitos E-commerce"
+
+#: templates/account/reports/transactions.php:12
+msgid "E-commerce Payouts"
+msgstr "Saques E-commerce"
+
+#: templates/account/reports/transactions.php:13
+msgid "E-commerce Cancelled/Declined"
+msgstr "Cancelados/Negados E-commerce"
+
+#: templates/account/reports/transactions.php:15
+msgid "Referrals"
+msgstr "Indicações"
+
+#: templates/account/reports/transactions.php:16
+msgid "Transfers"
+msgstr "Transferências"
+
+#: templates/account/reports/transactions.php:17
+msgid "Refunds"
+msgstr "Reembolsos"
+
+#: templates/account/reports/transactions.php:25
+msgid "Transaction Categories"
+msgstr "Categorias de Transações"
+
+#: templates/account/reports/transactions.php:36
+msgid "Currencies"
+msgstr "Moedas"
+
+#: templates/account/reports/transactions.php:93
+msgid "Account Amount"
+msgstr "Valor da Conta"
+
+#: templates/account/reset-password.php:13
+msgid "New Password"
+msgstr "Nova Senha"
+
+#: templates/account/reset-password.php:14
+msgid "Confirm New Password"
+msgstr "Confirme a Nova Senha"
+
+#: templates/account/reset-password.php:16
+#: templates/account/tickets/create.php:25
+#: templates/account/tickets/view.php:70
+msgid "Submit"
+msgstr "Enviar"
+
+#: templates/account/tickets/lists.php:19
+msgid "Open Ticket"
+msgstr "Abrir Ticket"
+
+#: templates/account/tickets/lists.php:35
+msgid "Filter"
+msgstr "Filtro"
+
+#: templates/account/tickets/lists.php:45
+#, php-format
+msgid "Displaying tickets from %1$s to %2$s"
+msgstr "Mostrando tickets de %1$s a %2$s"
+
+#: templates/account/tickets/lists.php:51
+msgid "Information unavailable. Modify the time range and try again."
+msgstr ""
+"Informação indisponível. Modifique o intervalo de tempo e tente novamente."
+
+#: templates/account/tickets/lists.php:61
+msgid "Ticket ID"
+msgstr "ID do Ticket"
+
+#: templates/account/tickets/view.php:14
+msgid "View Tickets"
+msgstr "Ver Tickets"
+
+#: templates/account/tickets/view.php:20
+msgid "ID :"
+msgstr "ID :"
+
+#: templates/account/tickets/view.php:24
+msgid "Status :"
+msgstr "Status :"
+
+#: templates/account/tickets/view.php:28
+msgid "Date Created :"
+msgstr "Criado Em :"
+
+#: templates/account/tickets/view.php:32
+msgid "Issue :"
+msgstr "Problema :"
+
+#: templates/account/tickets/view.php:43 templates/account/tickets/view.php:65
+msgid "Comments"
+msgstr "Comentários"
+
+#: templates/account/tickets/view.php:52
+msgid "By:"
+msgstr "Por:"
+
+#: templates/account/tickets/view.php:60
+msgid "Add Interaction"
+msgstr "Adicionar interação"
+
+#: templates/games-filter.php:10
+msgid "Filters"
+msgstr "Filtros"
+
+#: templates/games-filter.php:18
+msgid "Line"
+msgstr "Linha"
+
+#: templates/games-filter.php:29
+msgid "Provider"
+msgstr "Provedor"
+
+#: templates/games-filter.php:40
+msgid "Category"
+msgstr "Categoria"
+
+#: templates/games-list.php:110
+msgid "No games found."
+msgstr "Nenhum jogo encontrado."
+
+#: templates/user-register.php:95
+msgid ""
+"At the end of my registration, I certify that I am over 18 years of age and "
+"accept the"
+msgstr ""
+"Ao finalizar meu cadastro certifico que tenho mais de 18 anos de idade e "
+"aceito os"
+
+#: templates/user-register.php:95
+msgid "Terms and Conditions"
+msgstr "Termos e Condições"
+
+#: templates/user-register.php:95
+msgid "and"
+msgstr "e"
+
+#: templates/user-register.php:95
+msgid "Privacy Policy"
+msgstr "Política de Privacidade"
+
+#~ msgid "Sort By"
+#~ msgstr "Ordenar Por"
+
+#~ msgid "Sidebar Filter"
+#~ msgstr "Barra de Filtro"
+
+#~ msgid "Scratch Cards"
+#~ msgstr "Raspadinhas"
+
+#~ msgid "Bazingo"
+#~ msgstr "Bazingo"
+
+#~ msgid "Video Poker"
+#~ msgstr "Vídeo Poker"
+
+#~ msgid "Invalid phone number. Only numbers are allowed."
+#~ msgstr "Telefone inválido. Somente números são permitidos."
+
+#~ msgid "Invalid birthdate. Must be 18 years or older."
+#~ msgstr "Data de nascimento inválida. Deve ter 18 anos ou mais."
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "Comments :"
+#~ msgstr "Comentários :"

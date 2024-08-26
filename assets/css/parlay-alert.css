@@ -1,0 +1,9 @@
+body.swal2-toast-shown.admin-bar .swal2-container.swal2-top-end {
+  top: 50px !important;
+}
+body.wp-admin.swal2-toast-shown.admin-bar .swal2-container.swal2-top-end {
+  top: 32px !important;
+}
+body.swal2-toast-shown .swal2-container.swal2-top-end {
+  z-index: 10000;
+}

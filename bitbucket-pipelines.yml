@@ -1,0 +1,61 @@
+image: atlassian/default-image:3
+
+pipelines:
+  branches:
+    main:
+      - step:
+          name: Build Plugin and Generate Metadata
+          caches:
+            - npm
+          script:
+            - npm install
+            - composer install
+            - npm run build # Assuming you have a build script in your package.json
+            - npm run plugin-zip # Generate the plugin zip file
+            - |
+              # Extract version from package.json
+              version=$(node -p "require('./package.json').version")
+              download_url="https://bitbucket.org/brivalmedia/parlay-site-api-wp-plugin/downloads/parlay-games-api.zip"
+              changelog=$(cat changelog.txt)
+              json_content=$(cat <<EOF
+{
+  "version": "$version",
+  "download_url": "$download_url",
+  "changelog": "$changelog"
+}
+EOF
+)
+              echo "$json_content" > parlay-games-api.json
+          artifacts:
+            - parlay-games-api.zip
+            - parlay-games-api.json
+          after-script:
+            - pipe: atlassian/bitbucket-upload-file:0.3.1
+              variables:
+                BITBUCKET_USERNAME: $BITBUCKET_USERNAME
+                BITBUCKET_APP_PASSWORD: $BITBUCKET_APP_PASSWORD
+                FILENAME: 'parlay-games-api.zip'
+                ACCOUNT_NAME: 'brivalmedia'
+                REPOSITORY: 'parlay-site-api-wp-plugin'
+            - pipe: atlassian/bitbucket-upload-file:0.3.1
+              variables:
+                BITBUCKET_USERNAME: $BITBUCKET_USERNAME
+                BITBUCKET_APP_PASSWORD: $BITBUCKET_APP_PASSWORD
+                FILENAME: 'parlay-games-api.json'
+                ACCOUNT_NAME: 'brivalmedia'
+                REPOSITORY: 'parlay-site-api-wp-plugin'
+
+    '**':
+      - step:
+          name: Run PHPCS and PHP Unit Tests
+          caches:
+            - npm
+          script:
+            - npm install
+            - composer install
+            - ./vendor/bin/phpcs --standard=PSR2 src/ # Adjust path and standard as needed
+            - ./vendor/bin/phpunit --log-junit junit-report.xml # Run PHPUnit tests and log results
+          artifacts:
+            - junit-report.xml # Optional: save PHPUnit test report
+            - phpcs-report.txt # Optional: save PHPCS report
+

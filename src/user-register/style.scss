@@ -1,0 +1,51 @@
+/* style.css */
+.wp-block-parlay-user-register {
+  background-color: #fff;
+}
+.form-container .row-field input[type="date"] {
+  background-color: var(--theme-color-input_bg_color);
+  text-overflow: ellipsis;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5em;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0px;
+}
+
+/**
+ * Base style. To enable, change the form wrapper class to .parlay-registration-block
+ */
+.parlay-registration-block {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.parlay-registration-block h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.parlay-registration-block input,
+.parlay-registration-block button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.parlay-registration-block button {
+  background-color: #0073aa;
+  color: #fff;
+  cursor: pointer;
+}
+
+.parlay-registration-block button:hover {
+  background-color: #005689;
+}

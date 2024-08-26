@@ -1,0 +1,60 @@
+.media-modal  .games-list-wrap {
+    position: relative;
+}
+
+.media-modal .compat-item tr {
+    display: flex;
+    overflow: visible;
+}
+
+.tagify {
+    background-color: #fff;
+    width: 100%;
+}
+
+.media-modal .games-list {
+    z-index: 999999;
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.games-list .tagify__dropdown__item {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 2px;
+    padding: 0.8em;
+    border: 1px solid #CCC;
+    background: #F3F3F3;
+    margin: 0.2em;
+    font-size: .85em;
+    color: black;
+    transition: 0s;
+}
+
+.media-modal .games-list .tagify__dropdown__item {
+    margin: 0.3em 0.6em;
+    width: 95%;
+}
+
+.games-list .tagify__dropdown__item--active{
+    border-color: black;
+}
+
+.games-list .tagify__dropdown__item:hover{
+    background: lightyellow;
+    border-color: gold;
+}
+
+.games-list .tagify__dropdown__item--hidden {
+    max-width: 0;
+    max-height: initial;
+    padding: .3em 0;
+    margin: .2em 0;
+    white-space: nowrap;
+    text-indent: -20px;
+    border: 0;
+}
